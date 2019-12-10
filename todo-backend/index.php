@@ -32,7 +32,7 @@ Flight::set('json_podaci', $json_podaci );
 Flight::route('/', function(){
     echo 'ovde moze da ide homepage!';
 });
-// OVO SAM DODAO
+
 Flight::route('OPTIONS /itemi', function(){
 	return false;
 });
@@ -45,7 +45,7 @@ Flight::route('OPTIONS /itemi/@id', function($id){
 Flight::route('OPTIONS /liste/@id', function($id){
 	return false;
 });
-// Ja pojma nemam kako drugacije
+
 
 Flight::route('GET /itemi.json', function(){
 	header ("Content-Type: application/json; charset=utf-8");

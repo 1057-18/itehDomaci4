@@ -1,4 +1,4 @@
-# prvi
+# todo-frontend
 
 ## Project setup
 ```
